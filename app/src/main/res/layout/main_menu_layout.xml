@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+        <TextView
+                android:layout_marginTop="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:textColor="#000"
+                android:padding="8dp"/>
+
+        <Button
+                android:layout_width="140dp"
+                android:layout_height="32dp"
+                android:text="Main Profile"
+                android:background="@drawable/btn_back"
+                android:textColor="#fff"
+                android:drawableRight="@drawable/ic_main_profile"/>
+
+        <TextView
+                android:layout_marginTop="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:padding="8dp"/>
+
+        <View
+                android:layout_margin="8dp"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#999"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="friendly discount"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:padding="8dp"/>
+        <View
+                android:layout_margin="8dp"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#999"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shopping with picinc"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:padding="8dp"/>
+        <View
+                android:layout_margin="8dp"
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:background="#999"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:padding="8dp"/>
+    </LinearLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@null">
+        <ImageView
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:background="#fff"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_profile_up"/>
+
+    </FrameLayout>
+</LinearLayout>
